@@ -105,6 +105,10 @@ CefRefPtr<CefDisplayHandler> ClientHandler::GetDisplayHandler() {
   return GetHandler<DisplayHandler>("DisplayHandler");
 }
 
+CefRefPtr<CefDisplayHandler> ClientHandler::GetAudioHandler() {
+  return GetHandler<AudioHandler>("AudioHandler");
+}
+
 CefRefPtr<CefDownloadHandler> ClientHandler::GetDownloadHandler() {
   return GetHandler<DownloadHandler>("DownloadHandler");
 }

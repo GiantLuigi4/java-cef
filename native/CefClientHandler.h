@@ -55,6 +55,17 @@ JNIEXPORT void JNICALL
 Java_org_cef_handler_CefClientHandler_N_1removeDisplayHandler(JNIEnv*,
                                                               jobject,
                                                               jobject);
+                                                             jobject);
+
+/*
+ * Class:     org_cef_handler_CefClientHandler
+ * Method:    N_removeAudioHandler
+ * Signature: (Lorg/cef/handler/CefAudioHandler;)V
+ */
+JNIEXPORT void JNICALL
+Java_org_cef_handler_CefClientHandler_N_1removeAudioHandler(JNIEnv*,
+                                                              jobject,
+                                                              jobject);
 
 /*
  * Class:     org_cef_handler_CefClientHandler
